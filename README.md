@@ -31,5 +31,25 @@ Upload an image through the simple UI, and get an instant prediction powered by 
 
 ---
 
-## 🗂️ Folder Structure
+## 🗂️ Project Structure
+sports_person_classifier/
+├── models/ # Trained model files
+├── server/ # Backend server logic
+│ ├── artifacts/
+│ ├── opencv/
+│ ├── test_images/
+│ ├── server.py # Main Flask app
+│ ├── util.py # Utility functions
+│ ├── wavelet.py # Wavelet feature extraction
+│ └── b64.txt # Label mappings
+├── UI/ # Frontend (HTML, CSS, JS)
+│ ├── images/
+│ ├── app.html
+│ ├── app.css
+│ ├── app.js
+│ ├── dropzone.min.js
+│ └── dropzone.min.css
+├── Script1.ipynb # Model training & evaluation
+├── .gitignore
+├── README.md
 
