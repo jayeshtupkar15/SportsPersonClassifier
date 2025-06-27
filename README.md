@@ -32,7 +32,7 @@ Upload an image through the simple UI, and get an instant prediction powered by 
 ---
 
 ## 🗂️ Project Structure
-sports_person_classifier/
+'''sports_person_classifier/
 ├── models/ # Trained model files
 ├── server/ # Backend server logic
 │ ├── artifacts/
@@ -51,5 +51,5 @@ sports_person_classifier/
 │ └── dropzone.min.css
 ├── Script1.ipynb # Model training & evaluation
 ├── .gitignore
-├── README.md
+├── README.md'''
 
