@@ -1,4 +1,3 @@
-
 # 🏅 Sports Person Classifier 🤖📸
 
 An end-to-end machine learning project that classifies images of famous sports personalities using image processing, scikit-learn, and a Flask-powered web interface. The model predicts one of **five iconic athletes** based on the input image.
@@ -25,10 +24,32 @@ Upload an image through the simple UI, and get an instant prediction powered by 
 - **Machine Learning (scikit-learn)**
 - **OpenCV** for image processing
 - **NumPy, Matplotlib, Seaborn** for preprocessing & visualization
-- **Flask** (backend)
-- **HTML/CSS/JavaScript** (frontend)
-- **Dropzone.js** for drag-and-drop upload
+- **Flask** for backend development
+- **HTML / CSS / JavaScript** for frontend
+- **Dropzone.js** for drag-and-drop image upload
 
 ---
 
-<pre> ## 🗂️ Project Structure ``` sports_person_classifier/ ├── models/ # Trained model files ├── server/ # Backend server logic │ ├── artifacts/ │ ├── opencv/ │ ├── test_images/ │ ├── server.py # Main Flask app │ ├── util.py # Utility functions │ ├── wavelet.py # Wavelet feature extraction │ └── b64.txt # Label mappings ├── UI/ # Frontend (HTML, CSS, JS) │ ├── images/ │ ├── app.html │ ├── app.css │ ├── app.js │ ├── dropzone.min.js │ └── dropzone.min.css ├── Script1.ipynb # Model training & evaluation ├── .gitignore └── README.md ``` </pre>
+## 🗂️ Project Structure
+
+```text
+sports_person_classifier/
+├── models/                  → Trained machine learning models
+├── server/                  → Backend logic for prediction
+│   ├── artifacts/           → Intermediate model/data artifacts
+│   ├── opencv/              → Haarcascade or OpenCV resources
+│   ├── test_images/         → Sample images for testing
+│   ├── server.py            → Main Flask application
+│   ├── util.py              → Helper functions
+│   ├── wavelet.py           → Wavelet feature extractor
+│   └── b64.txt              → Label to base64 mapping
+├── UI/                      → Frontend web interface
+│   ├── images/              → Frontend image assets
+│   ├── app.html             → Main HTML file
+│   ├── app.css              → Styling (CSS)
+│   ├── app.js               → JS logic for UI
+│   ├── dropzone.min.js      → Drag & drop plugin (JS)
+│   └── dropzone.min.css     → Stylesheet for Dropzone
+├── Script1.ipynb            → Jupyter Notebook for model training
+├── .gitignore               → Git ignore file
+└── README.md                → Project documentation
